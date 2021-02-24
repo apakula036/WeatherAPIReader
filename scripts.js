@@ -1,7 +1,7 @@
 var city = "Lockport"; 
 
 
-$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&units=imperial&APPID=" + API_TOKEN_KEY,
+$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&units=imperial&APPID=" + API_TOKEN_KEY,//theres a new key this one is exposed
  function(data){
     console.log(data);
 
