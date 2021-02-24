@@ -1,6 +1,7 @@
 var city = "Lockport"; 
 
-$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&units=imperial&APPID=27944980ec2b7f7fbbdf98589584e674",
+
+$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&units=imperial&APPID=" + API_TOKEN_KEY,
  function(data){
     console.log(data);
 
